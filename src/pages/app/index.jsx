@@ -30,7 +30,7 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <Data>
-      <BrowserRouter>
+      <BrowserRouter basename='/mystoreapp'>
         <NavBar/>
         <CheckoutSideMenu/>
         <Layout>

@@ -12,7 +12,7 @@ const Home = () => {
     if(category === 'mens') category = `men's clothing`;
     if(category === 'womens') category = `women's clothing`;
     
-    if (searchByCategory === null) setSearchByCategory(category);
+    //if (searchByCategory === null) setSearchByCategory(category);
   }, []);
 
   const inputRef = useRef(null);
